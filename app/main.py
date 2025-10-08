@@ -33,7 +33,8 @@ class CarWashStation:
 
     def serve_cars(self, cars: List[Car]) -> float:
         """
-        Washes a list of cars if they are dirty enough and returns the total income.
+        Washes a list of cars if they are dirty enough and returns
+        the total income.
         """
         total_income = 0.0
         for car in cars:
